@@ -97,6 +97,14 @@ As already mentioned, there are biases both in the data and in processing it. Th
 In addition to this, the analysis is also likely to be flawed. Without any expertise in history, linguistics or folkloristics, my abilities to interpret and analyze proverbs is quite limited. Even if I got some kind of an answer to the research question, I suspect that my attempts at distant and close reading were left quite shallow. 
 For trustable analysis, the research should be done in collaboration with multiple fields ranging from computer science to history and linguistics. 
 
+References:
+Garg, C., Goyal, L.M., & Scholar, M.T. (2014). Automatic Extraction of Idiom , Proverb and its Variations from Text using Statistical Approach.
+ 
+Outi Lauhakangas. 2018.
+Arguments for a special status of proverbs among setphrases.
+In: La phraséologie: théories et applications.(eds) Olivier Soutet, Salah Mejri etInès Sfar, Paris: Honoré Champion: Bibliothèque de Grammaire et de Linguistique No 57,229–239.ISBN 9782745347800
+
+
 Appendix: My stopwords
 
 alatornio
