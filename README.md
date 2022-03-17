@@ -98,6 +98,7 @@ In addition to this, the analysis is also likely to be flawed. Without any exper
 For trustable analysis, the research should be done in collaboration with multiple fields ranging from computer science to history and linguistics. 
 
 References:
+
 Garg, C., Goyal, L.M., & Scholar, M.T. (2014). Automatic Extraction of Idiom , Proverb and its Variations from Text using Statistical Approach.
  
 Outi Lauhakangas. 2018.
