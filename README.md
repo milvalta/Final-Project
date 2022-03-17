@@ -33,7 +33,7 @@ The next chapter explains the struggle in detail.
 3.1. Processing the data: The first attempt  
 
 The first step was to upload the data into Voyant. It became immediately clear that preprocessing the data is crucial. Unsurprisingly the biggest words appearing in the word cloud created by Voyant were noise and metadata: conjunctions, years in which the proverbs have been collected, names of the collectors and places the proverbs are collected from. 
-To get rid of the least meaningful words, I first applied a Finnish stopword list (found here). This removed a big chunk of the noise. To remove the metadata, to the existing stopwords list I added certain names and numbers (list in Appendix 1).
+To get rid of the least meaningful words, I first applied a Finnish stopword list (found here). This removed a big chunk of the noise. To remove the metadata, to the existing stopwords list I added certain names and numbers (list in Appendix).
 It turned out that Voyant is not optimal to preprocess the data. The tool is built for visualizing the data and not for cleaning it. This resulted in significant shortcomings in the cleaning of the data. Same proverbs appeared multiple times, written both in standard Finnish and in dialect, and I caused possible problems by adding insignificant words to the stopwords randomly, as they rose from the set. 
 To enhance the reliability of the results, I created another dataset consisting only of the standard Finnish proverbs. This set does not include any metadata: the names, years, places and also the proverbs recorded in dialect were removed from the set with OpenRefine. Removing all but the standard Finnish proverbs eliminated both the context of the sentences, and the possibility of further study on, for instance, comparing regional differences. Creating this set was a major shortcut, but I ended up using it for this paper nevertheless. This kind of simple data set made it easier to focus on the research question as it minimized the risk of unknowingly biasing the data by cleaning it without fully understanding the process. 
 In comparison to the data cleaned with Voyant, the simplified set only includes 604,072 total words and 60,636 unique word forms, whereas the first dataset included 1,666,563 total words and 130,329 unique word forms. 
@@ -96,3 +96,41 @@ One interesting topic for future DH research could be studying the different pur
 As already mentioned, there are biases both in the data and in processing it. The code used in processing the data with Python is clumsy and incomplete and might cause some problems I'm not even aware about. 
 In addition to this, the analysis is also likely to be flawed. Without any expertise in history, linguistics or folkloristics, my abilities to interpret and analyze proverbs is quite limited. Even if I got some kind of an answer to the research question, I suspect that my attempts at distant and close reading were left quite shallow. 
 For trustable analysis, the research should be done in collaboration with multiple fields ranging from computer science to history and linguistics. 
+
+Appendix: My stopwords
+
+alatornio
+eno
+evijärvi
+hailuoto
+hausjärvi 
+isokyrö
+joutseno
+juva
+kalanti
+kiuruvesi
+kivennapa
+kuhmoinen
+kurkijoki
+laukaa
+loimaa
+nivala
+nummi
+pälkäne
+paltamo
+riistavesi
+rovaniemi
+ruovesi
+tyrvää
+ulvila
+valkeala
+1930
+1931
+1932
+1933
+1934
+1935
+1936
+1937
+1938
+1939
